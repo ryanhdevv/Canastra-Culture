@@ -169,6 +169,21 @@ footer a {
     color: white;
 }
 
+@media (max-width: 600px) {
+
+header {
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.produto {
+    width: 100%;
+}
+
 .sobre {
     padding: 40px 20px;
 }
@@ -180,19 +195,5 @@ footer a {
 .sobre-destaque {
     font-size: 1.3rem;
 }
- {
-header {
-flex-direction: column;
-gap: 10px;
-}
-
-nav a {
-    margin: 0 10px;
-}
-
-.produto {
-    width: 100%;
-}
-
 
 }
